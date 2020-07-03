@@ -1,0 +1,32 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "b": "tsc -p tsconfig.release.json",
+    "b:w": "tsc -w -p tsconfig.release.json",
+    "run:prod": "node -r ./tsconfig-paths-bootstrap.js build"
+  },
+  "_moduleAliases": {
+    "~": "src/"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^13.1.8",
+    "@types/puppeteer": "^2.0.0",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "tsutils": "~3.17.0",
+    "typescript": "~3.7.4"
+  },
+  "dependencies": {
+    "color-log": "^0.0.2",
+    "csv-stringify": "^5.5.0",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^8.1.0",
+    "module-alias": "^2.2.2",
+    "puppeteer": "^2.0.0",
+    "puppeteer-cluster": "^0.18.0",
+    "tslib": "~1.10.0"
+  }
+}

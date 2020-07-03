@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Chrome User Data
+exec/
+
+# Coverage
+coverage
+
+# Transpiled files
+build/
+
+
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# JetBrains IDEs
+.idea/
+
+# Optional npm cache directory
+.npm
+
+*.zip
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.DS_Store
+
+serviceAccountKey.json
+.env
