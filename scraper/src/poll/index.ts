@@ -16,7 +16,7 @@ export const Poll = async () => {
   }
 
   // gather polling data from website
-  const url = 'https://vk.com/away.php?utf=1&to=http%3A%2F%2Fwww.tomsk.vybory.izbirkom.ru%2Fregion%2Fregion%2Ftomsk%3Faction%3Dshow%26root%3D1000068%26tvd%3D100100163598077%26vrn%3D100100163596966%26region%3D70%26global%3D1%26sub_region%3D70%26prver%3D0%26pronetvd%3Dnull%26vibid%3D100100163598077%26type%3D465';
+  const url = 'http://www.dagestan.vybory.izbirkom.ru/region/region/dagestan?action=show&root=1000005&tvd=100100163598014&vrn=100100163596966&region=5&global=1&sub_region=5&prver=0&pronetvd=null&vibid=100100163598014&type=465';
 
   // start the uploader
   const tStart = Date.now();
